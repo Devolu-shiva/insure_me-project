@@ -17,4 +17,4 @@
     become_user: root
 
   - name: Deploy the Image and Run as Container
-    command: docker run -itd -p devshivadevops96/insure-project:1.0
+    command: docker run -itd -p 8085:8081 devshivadevops96/insure-project:1.0
